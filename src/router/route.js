@@ -429,64 +429,6 @@ const routes = [
           groupParent: "charts",
         },
       },
-      // app
-      {
-        path: "calender",
-        name: "calender",
-        component: () => import("@/views/app/calendar"),
-      },
-      {
-        path: "todo",
-        name: "todo",
-        component: () => import("@/views/app/todo"),
-        meta: {
-          hide: true,
-          appheight: true,
-        },
-      },
-      {
-        path: "kanban",
-        name: "kanban",
-        component: () => import("@/views/app/kanban"),
-        meta: {
-          hide: true,
-        },
-      },
-      {
-        path: "email",
-        name: "email",
-        component: () => import("@/views/app/email"),
-        meta: {
-          groupParent: "Project",
-          hide: true,
-          appheight: true,
-        },
-      },
-      {
-        path: "projects",
-        name: "projects",
-        component: () => import("@/views/app/projects"),
-        meta: {
-          hide: true,
-        },
-      },
-      {
-        path: "project-details",
-        name: "project-details",
-        component: () => import("@/views/app/projects/project-details.vue"),
-        meta: {
-          hide: true,
-        },
-      },
-      {
-        path: "chat",
-        name: "chat",
-        component: () => import("@/views/app/chat"),
-        meta: {
-          hide: true,
-          appheight: true,
-        },
-      },
       // normal pages
       {
         path: "invoice",
